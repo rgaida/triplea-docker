@@ -1,8 +1,8 @@
 # TripleA Docker
-Docker image for running the [TripleA board game engine](https://triplea-game.org/) version 2.0 and greater in bot mode.
+Docker image for running a headless game server, also known as a bot, for the [TripleA board game engine](https://triplea-game.org/) version 2.0.
 
 ### Building
-Already built images can be found on Docker Hub at [bacrossland/triplea](https://hub.docker.com/r/bacrossland/triplea).
+Already built images can be found on Docker Hub at [rgaida/triplea](https://hub.docker.com/r/rgaida/triplea).
 
 To build this Docker image locally, run the follow:
 
