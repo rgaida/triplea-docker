@@ -1,0 +1,10 @@
+services:
+    triplea:
+        container_name: triplea
+        volumes:
+            - ./downloadedMaps:/opt/triplea/downloadedMaps
+            - ./savedGames:/opt/triplea/savedGames
+        ports:
+            - 3300:3300
+        image: triplea:latest
+        command: run_bot -u Username -w BotPassword
